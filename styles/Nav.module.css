@@ -1,0 +1,16 @@
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.active {
+    color: rgb(4, 158, 158);
+}
+
+.NextLink {
+    margin: 0 1rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
