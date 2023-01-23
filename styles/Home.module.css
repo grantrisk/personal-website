@@ -1,8 +1,65 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
   padding: 3rem;
   min-height: 100vh;
+}
+
+.avatar {
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 100px;
+  object-fit: cover;
+  object-position: top;
+  clip-path: circle(50% at 50% 50%);
+}
+
+.section {
+  width: 70%;
+  background-color: aqua;
+}
+
+.sideBySide {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.sectionHeader {
+  justify-content: space-around;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 1rem;
+}
+
+.links img {
+  margin: auto 0.5rem;
+}
+
+@media (max-width: 767px) {
+  .section h1 {
+    font-size: 2rem;
+  }
+
+  .section h3,
+  .section p {
+    font-size: 1em;
+  }
+
+  .avatar {
+    width: 300px;
+    height: 200px;
+  }
+
+  .sideBySide {
+    flex-direction: column;
+  }
 }

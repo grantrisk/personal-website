@@ -33,7 +33,7 @@ export default function Container(props) {
         <NavItem href="/" text="Home" />
         <NavItem href="/blog" text="Blog" />
       </nav>
-      <main>{children}</main>
+      <>{children}</>
     </>
   );
 }

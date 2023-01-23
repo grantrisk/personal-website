@@ -7,6 +7,7 @@ export default function Home() {
       <Container>
         <Head>
           <title>Grant Risk - Blog</title>
+          <meta name="description" content="This is my personal website where I share my thoughts in the form of blogs." />
         </Head>
         <main className={styles.main}>
           <h1>Grant Risk&apos;s Blog</h1>

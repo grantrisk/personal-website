@@ -6,7 +6,6 @@ export default function Document() {
       <Head>
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      <meta name="description" content="This is my personal website where I share my thoughts, projects, and YouTube videos." />
       <meta name="keywords" content="personal website, thoughts, projects, experiences, YouTube videos" />
       <meta name="author" content="Grant Risk" />
       {/* TODO */}
