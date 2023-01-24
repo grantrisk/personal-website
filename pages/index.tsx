@@ -7,10 +7,6 @@ import githubSVG from "@/static/svgs/github.svg"
 import githubBlackSVG from "@/static/svgs/github-black.svg"
 import linkedinSVG from "@/static/svgs/linkedin.svg"
 
-
-
-
-
 export default function Home() {
 
   return (
@@ -64,9 +60,24 @@ export default function Home() {
         
         <section className={styles.section}>
           <h2>Projects</h2>
-          <h2>Projects</h2>
-          <h2>Projects</h2>
+        </section>
 
+        <br />
+        <hr />
+        <br />
+        
+        <section className={styles.section}>
+          <h2>About</h2>
+        </section>
+        
+        <br />
+        <hr />
+        <br />
+        
+        <section className={styles.section}>
+          <h2>Resume</h2>
+          <br />
+          <a className={styles.resume} href="../static/documents/Resume.pdf" target="_blank">View Resume</a>
         </section>
       </main>
     </Container>

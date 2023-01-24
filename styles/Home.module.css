@@ -18,7 +18,7 @@
 
 .section {
   width: 70%;
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 
 .sideBySide {
@@ -30,7 +30,21 @@
 
 .sectionHeader {
   justify-content: space-around;
+  /* background-color: aqua; */
 }
+
+/* TODO: make lines cut through the back of the header */
+/* .sectionHeader::before {
+  content: "";
+  border-left: solid 3px black;
+  position: absolute;
+  transform: rotate(45deg);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+} */
+
 
 .links {
   display: flex;
@@ -43,6 +57,33 @@
 .links img {
   margin: auto 0.5rem;
 }
+
+.resume {
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.resume:hover {
+  transform: scale(1.2);
+  box-shadow: 0px 0px 10px #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+  .resume {
+    color: #000;
+    background-color: #fff;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .resume {
+    color: #fff;
+    background-color: #000;
+  }
+}
+
 
 @media (max-width: 767px) {
   .section h1 {
