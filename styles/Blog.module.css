@@ -1,10 +1,29 @@
 .main {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .outOfOrder {
-    rotate: -15deg;    
+  animation: sway 2s ease-in-out infinite;
+}
+
+@keyframes sway {
+  0% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(5deg);
+  }
+}
+
+@media (max-width: 767px) {
+  .outOfOrder {
+    width: 200px;
+    height: 200px;
+  }
 }
