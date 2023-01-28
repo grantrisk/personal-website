@@ -70,6 +70,30 @@
   box-shadow: 0px 0px 10px #fff;
 }
 
+/* .footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+.copyright {
+  margin-bottom: 0;
+}
+.contact {
+  margin-bottom: 0;
+}
+.links {
+  margin-bottom: 0;
+}
+.link {
+  color: #fff;
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: underline;
+} */
+
+
 @media (prefers-color-scheme: dark) {
   .resume {
     color: #000;
