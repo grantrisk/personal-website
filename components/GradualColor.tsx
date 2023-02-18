@@ -8,8 +8,10 @@ export default function GradualColor({ children }) {
         text.innerHTML = "";
         letters.forEach((letter, index) => {
             const span = document.createElement("span");
+            // make span color black
+            span.style.color = "black";
             span.innerHTML = letter;
-            span.style.animation = "color-change 100s linear infinite";
+            span.style.animation = "color-change 50s linear infinite";
             // Apply an offset to the animation for each letter
             span.style.animationDelay = `${index * 0.3}s`;
             text.appendChild(span);
