@@ -70,6 +70,14 @@
   box-shadow: 0px 0px 10px #fff;
 }
 
+.persoanlLinks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 1rem;
+}
+
 /* .footer {
   background-color: #333;
   color: #fff;
@@ -130,5 +138,13 @@
 
   .sideBySide {
     flex-direction: column;
+  }
+
+  .persoanlLinks {
+    flex-direction: column;
+  }
+
+  .resume {
+    margin: 1rem;
   }
 }

@@ -144,13 +144,23 @@ export default function Home() {
           </p>
           <br />
           <br />
-          <a
-            className={styles.resume}
-            href="../static/documents/Resume.pdf"
-            target="_blank"
-          >
-            View Resume
-          </a>
+          <div className={styles.persoanlLinks}>
+            <a
+              className={styles.resume}
+              href="../static/documents/Resume.pdf"
+              target="_blank"
+            >
+              View Resume
+            </a>
+            <a
+              className={styles.resume}
+              href="https://mandrillapp.com/track/click/30717337/www.parchment.com?p=eyJzIjoidkFLbEdHcE1xZWZCVTNWVDFxT29Id01SVEpZIiwidiI6MSwicCI6IntcInVcIjozMDcxNzMzNyxcInZcIjoxLFwidXJsXCI6XCJodHRwczpcXFwvXFxcL3d3dy5wYXJjaG1lbnQuY29tXFxcL3VcXFwvc1xcXC9nd0N3XCIsXCJpZFwiOlwiZWUxMzczZGRhMTA1NGNkMmEwZjI0ZTY1N2E2NGE4M2NcIixcInVybF9pZHNcIjpbXCIyNTc5ODMzYzE0MzVhMDE5YzdmNzhiMzdjNzhiOTc5ODNmOWRiZWRhXCJdfSJ9"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View Degree
+            </a>
+          </div>
         </section>
         {/* <br />
         <br />
