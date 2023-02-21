@@ -3,10 +3,8 @@ import styles from "@/styles/Home.module.css";
 import Head from "next/head";
 import Image from "next/image";
 import grantPose from "@/static/images/grant-pose.png";
-import githubSVG from "@/static/svgs/github.svg";
-import githubBlackSVG from "@/static/svgs/github-black.svg";
-import linkedinSVG from "@/static/svgs/linkedin.svg";
 import GradualColor from "../components/GradualColor";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -16,6 +14,16 @@ export default function Home() {
         <meta
           name="description"
           content="This is my personal website where I share my thoughts, projects, and YouTube videos."
+        />
+        <meta name="og:title" content="Grant Risk - Home" />
+        <meta
+          name="og:description"
+          content="This is my personal website where I share my thoughts, projects, work experience, and YouTube videos."
+        />
+        <meta name="og:image" content="/static/images/grant-pose.png" />
+        <meta
+          name="og:url"
+          content="http://personal-website-chi-black.vercel.app/"
         />
       </Head>
       <main className={styles.main}>
@@ -49,11 +57,6 @@ export default function Home() {
             height={1066}
           />
         </section>
-
-        {/* TODO: 
-              - make svg icons change based on system color scheme
-              - convert clickable svg icons to react components
-          */}
         <section className={styles.sideBySide}>
           <a
             className={styles.links}
@@ -61,7 +64,7 @@ export default function Home() {
             target="_blank"
             rel="noreferrer"
           >
-            <Image src={githubSVG} alt="GitHub"></Image>
+            <FaGithub />
             GitHub
           </a>
           <a
@@ -70,7 +73,7 @@ export default function Home() {
             target="_blank"
             rel="noreferrer"
           >
-            <Image src={linkedinSVG} alt="LinkedIn"></Image>
+            <FaLinkedin />
             LinkedIn
           </a>
         </section>
@@ -79,7 +82,7 @@ export default function Home() {
         <hr />
         <br />
 
-        <section className={styles.section}>
+        {/* <section className={styles.section}>
           <h2>Projects</h2>
           <br />
           <p>
@@ -96,7 +99,7 @@ export default function Home() {
 
         <br />
         <hr />
-        <br />
+        <br /> */}
 
         <section className={styles.section}>
           <h2>About</h2>

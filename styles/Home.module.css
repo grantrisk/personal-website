@@ -18,7 +18,6 @@
 
 .section {
   width: 70%;
-  /* background-color: aqua; */
 }
 
 .sideBySide {
@@ -28,23 +27,14 @@
   margin: 1rem 0;
 }
 
-.sectionHeader {
-  justify-content: space-around;
-  /* background-color: aqua; */
+.sideBySide svg {
+  margin-right: 1rem;
+  font-size: 1.5rem;
 }
 
-/* TODO: make lines cut through the back of the header */
-/* .sectionHeader::before {
-  content: "";
-  border-left: solid 3px black;
-  position: absolute;
-  transform: rotate(45deg);
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-} */
-
+.sectionHeader {
+  justify-content: space-around;
+}
 
 .links {
   display: flex;
