@@ -105,7 +105,11 @@ export default function Home() {
           <h2>About</h2>
           <br />
           <p>
-            My name is Grant Risk and I am a software engineer at Ohanafy, a
+            Hello! My name is Grant Risk and I am a software engineer currently working at Ohanafy, a
+            software brewery company based in Wilmington, North Carolina. 
+          </p>
+          {/* <p>
+            Hello! My name is Grant Risk and I am a software engineer currently working at Ohanafy, a
             software brewery company based in Wilmington, North Carolina. I am
             passionate about creating innovative and user-friendly software that
             makes a difference in people&apos;s lives. I have a strong
@@ -118,7 +122,7 @@ export default function Home() {
             beautiful beaches and outdoor spaces of Wilmington. I hope you enjoy
             exploring my website and learning more about me and my professional
             journey.
-          </p>
+          </p> */}
           <br></br>
         </section>
 
@@ -127,10 +131,10 @@ export default function Home() {
         <br />
 
         <section className={styles.section}>
-          <h2>Resume</h2>
+          <h2>Resume / Degree</h2>
           <br />
           <p>
-            As a software engineer with 2 years of experience, I am excited to
+            As a software engineer with ~2 years of experience, I am excited to
             showcase my professional accomplishments and qualifications. My
             strong technical skills and ability to work well in a team have
             allowed me to excel in various projects and roles throughout my
