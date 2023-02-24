@@ -94,7 +94,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-  font-family: 'Inter', sans-serif;
+  font-family: "Labrada", serif;
 }
 
 a {
@@ -109,15 +109,33 @@ h1 {
 }
 
 @keyframes color-change {
-  0% { color: black; }
-  5% { color: purple; }
-  10% { color: red; }
-  20% { color: orange; }
-  40% { color: yellow; }
-  60% { color: green; }
-  80% { color: blue; }
-  95% { color: purple; }
-  100% { color: black; }
+  0% {
+    color: black;
+  }
+  5% {
+    color: purple;
+  }
+  10% {
+    color: red;
+  }
+  20% {
+    color: orange;
+  }
+  40% {
+    color: yellow;
+  }
+  60% {
+    color: green;
+  }
+  80% {
+    color: blue;
+  }
+  95% {
+    color: purple;
+  }
+  100% {
+    color: black;
+  }
 }
 
 hr {

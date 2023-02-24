@@ -105,8 +105,9 @@ export default function Home() {
           <h2>About</h2>
           <br />
           <p>
-            Hello! My name is Grant Risk and I am a software engineer currently working at Ohanafy, a
-            software brewery company based in Wilmington, North Carolina. 
+            Hello! My name is Grant Risk and I am a software engineer currently
+            working at Ohanafy, a software brewery company based in Wilmington,
+            North Carolina.
           </p>
           {/* <p>
             Hello! My name is Grant Risk and I am a software engineer currently working at Ohanafy, a
@@ -169,19 +170,6 @@ export default function Home() {
             </a>
           </div>
         </section>
-        {/* <br />
-        <br />
-        <footer className={styles.footer}>
-          <p>Copyright © Grant Risk 2023</p>
-          <p>
-            Contact: <a href="mailto:riskgrant@gmail.com">riskgrant@gmail.com</a> |{" "}
-            <a href="tel:+1234567890">(123) 456-7890</a>
-          </p>
-          <p>
-            <a href="https://www.linkedin.com/in/grantrisk">LinkedIn</a> |
-            <a href="https://github.com/grantrisk">GitHub</a> |
-          </p>
-        </footer> */}
       </main>
     </Container>
   );
