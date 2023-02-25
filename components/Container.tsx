@@ -30,11 +30,11 @@ export default function Container(props) {
   return (
     <>
       <nav className={styles.nav}>
-        <NavItem href="/" text="Home" />
+        {/* <NavItem href="/" text="Home" />
         <NavItem href="/experiences" text="Experiences" />
         <NavItem href="/tutoring" text="Tutoring" />
         <NavItem href="/youtube" text="YouTube" />
-        <NavItem href="/blog" text="Blog" />
+        <NavItem href="/blog" text="Blog" /> */}
       </nav>
       <>{children}</>
     </>
