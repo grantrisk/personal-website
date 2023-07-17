@@ -22,7 +22,7 @@ export default function Container(props) {
   const [mounted, setMounted] = useState(false);
 
   // After mounting, we have access to the theme
-  // We are using this to prevent the initial flash of unstyled content
+  // We are using this to prevent the initial flash of content that is not styled
   useEffect(() => setMounted(true), []);
 
   const { children, ...customMeta } = props;

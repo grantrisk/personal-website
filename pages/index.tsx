@@ -23,7 +23,7 @@ export default function Home() {
         <meta name="og:image" content="/static/images/grant-pose.png" />
         <meta
           name="og:url"
-          content="http://personal-website-chi-black.vercel.app/"
+          content="https://personal-website-chi-black.vercel.app/"
         />
       </Head>
       <main className={styles.main}>
@@ -141,7 +141,7 @@ export default function Home() {
           </p>
           <br />
           <br />
-          <div className={styles.persoanlLinks}>
+          <div className={styles.personalLinks}>
             <a
               className={styles.resume}
               href="../static/documents/Resume.pdf"

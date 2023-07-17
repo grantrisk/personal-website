@@ -24,7 +24,7 @@ This will start a development server at http://localhost:3000, where you can vie
 ## Features
 
 * Blogs: You can find the list of all my blogs on the homepage.
-* YouTube Videos: You can find the list of all my Youtube videos on the video page.
+* YouTube Videos: You can find the list of all my YouTube videos on the video page.
 * Responsive Design: The website is designed to look good on any screen size.
 
 ## Contributions

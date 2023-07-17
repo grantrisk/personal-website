@@ -57,10 +57,10 @@
 
 .resume:hover {
   transform: scale(1.2);
-  box-shadow: 0px 0px 10px #fff;
+  box-shadow: 0 0 10px #fff;
 }
 
-.persoanlLinks {
+.personalLinks {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -105,7 +105,7 @@
     flex-direction: column;
   }
 
-  .persoanlLinks {
+  .personalLinks {
     flex-direction: column;
   }
 
