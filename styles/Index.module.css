@@ -13,6 +13,7 @@
     justify-content: space-between;
     align-items: center;
     height: 70vh;
+    max-height: 850px;
     background: white;
     width: 100%;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
@@ -107,10 +108,6 @@
 
     .fadeImageContainer {
         width: 50%;
-    }
-
-    .avatar {
-        object-position: 55% -20vh;
     }
 
     .section {
