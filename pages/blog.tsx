@@ -1,28 +1,32 @@
-import Container from "@/components/Container";
-import styles from "@/styles/Blog.module.css";
+import { getAllPosts } from '@/lib/api'
+import NavContainer from "@/components/NavContainer";
 import Head from "next/head";
-import Image from "next/image";
-import outOfOrder from "@/static/images/out-of-order.png";
+import Link from "next/link";
 
-export default function Home() {
-  return (
-    <Container>
-      <Head>
-        <title>Grant Risk - Blog</title>
-        <meta
-          name="description"
-          content="This is my personal website where I share my thoughts in the form of blogs."
-        />
-      </Head>
-      <main className={styles.main}>
-        <Image
-          className={styles.outOfOrder}
-          src={outOfOrder}
-          alt="Out Of Order Sign"
-          width={416}
-          height={416}
-        />
-      </main>
-    </Container>
-  );
+export default function Blog({ posts }) {
+    return (
+        <NavContainer>
+            <Head>
+                <title>Grant Risk - Blog</title>
+                <meta name="description" content="This is my personal website where I share my thoughts in the form of blogs."/>
+            </Head>
+            <main>
+                <h1>Blog Posts</h1>
+                <ul>
+                    {posts.map(post => (
+                        <li key={post.slug}>
+                            <Link href={`/blog/${post.slug}`}>{post.title}</Link>
+                        </li>
+                    ))}
+                </ul>
+            </main>
+        </NavContainer>
+    );
+}
+
+export async function getStaticProps() {
+    const posts = await getAllPosts();
+    return {
+        props: { posts },
+    };
 }
