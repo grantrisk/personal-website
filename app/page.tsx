@@ -1,17 +1,14 @@
 "use client";
 
-import NavContainer from "@/components/NavContainer";
-import MetaData from "@/components/MetaData";
 import GitHubLinkedInLinks from "@/components/GitHubLinkedInLinks";
 import styles from "@/styles/Index.module.css";
 import Image from "next/image";
-import grantPose from "@/static/images/grant-pose.png";
+import grantPose from "@/public/grant-pose.png";
 import GradualColor from "../components/GradualColor";
 
 export default function Home() {
   return (
     <>
-      <MetaData />
       <main className={styles.main}>
         <section className={styles.sectionHeader}>
           <div className={styles.textContainer}>
