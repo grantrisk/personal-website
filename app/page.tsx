@@ -1,5 +1,3 @@
-"use client";
-
 import GitHubLinkedInLinks from "@/components/GitHubLinkedInLinks";
 import styles from "@/styles/Index.module.css";
 import Image from "next/image";
