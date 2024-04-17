@@ -19,7 +19,7 @@ export default function Home() {
         <h3>Here is a handy dandy button to get you back!</h3>
         <br />
         <NextLink href="/">
-            <button className={styles.button}>Home</button>
+          <button className={styles.button}>Home</button>
         </NextLink>
         <br />
         <p>☝️</p>

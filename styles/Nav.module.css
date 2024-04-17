@@ -1,25 +1,25 @@
 .nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    background-color: #ffffff;
-    border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: #ffffff;
+  border-radius: 10px;
 }
 
 .active {
-    color: #007BFF;
-    border-bottom: 2px solid #007BFF;
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
 }
 
 .NextLink {
-    margin: 0 1rem;
-    font-size: 1.2rem;
-    text-decoration: none;
-    color: #333;
-    transition: color 0.3s ease-in-out;
+  margin: 0 1rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease-in-out;
 }
 
 .NextLink:hover {
-    color: #007BFF;
+  color: #007bff;
 }
