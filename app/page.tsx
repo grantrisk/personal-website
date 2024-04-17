@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import NavContainer from "@/components/NavContainer";
 import MetaData from "@/components/MetaData";

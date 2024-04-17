@@ -1,10 +1,11 @@
-import { Metadata } from 'next'
+import { Metadata } from "next";
 import "../styles/globals.css";
+import React from "react";
 
 export const metadata: Metadata = {
-  title: 'Home',
-  description: 'Welcome to Next.js',
-}
+  title: "Home",
+  description: "Welcome to Next.js",
+};
 
 /*
 * import { Html, Head, Main, NextScript } from "next/document";
