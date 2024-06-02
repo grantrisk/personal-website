@@ -15,11 +15,11 @@ export default function Home() {
               Software Engineer at{" "}
               <a
                 className={styles.a}
-                href="https://www.ohanafy.com"
+                href="https://www.tractorzoom.com"
                 target="_blank"
                 rel="noreferrer"
               >
-                Ohanafy
+                Tractor Zoom
               </a>
             </h3>
             <br />
@@ -55,8 +55,8 @@ export default function Home() {
           <br />
           <p>
             Hello! My name is Grant Risk and I am a software engineer currently
-            working at Ohanafy, a software brewery company based in Wilmington,
-            North Carolina. I spend a lot of my free time trying to automate
+            working at Tractor Zoom, a software company helping people find & finance
+            farm equipment faster. I spend a lot of my free time trying to automate
             boring tasks and learning new technologies. I love to learn and to
             help others learn. I have been apart of non-profit organizations and
             local meetups to help others learn how to code. If you interested in
